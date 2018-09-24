@@ -1,12 +1,11 @@
-INSERT INTO
+INSERT INTO IF NOT EXISTS
 `photos`
 (`product_id`,`photo_url`)
 VALUES
-('1','products/sample/product_1.jpg'),
-('2','products/sample/product_2.jpg'),
-('3','products/sample/product_3.jpg'),
-('4','products/sample/product_4.jpg'),
-('1','products/sample/product_5.jpg'),
-('1','products/sample/product_6.jpg'),
-('2','products/sample/product_7.jpg'),
+('1','products/sample/dummy/fashion/f_01_01.jpg'),
+('1','products/sample/dummy/fashion/f_01_02.jpg'),
+('2','products/sample/dummy/fashion/f_02_01.jpg'),
+('2','products/sample/dummy/fashion/f_03_01.jpg'),
+('3','products/sample/dummy/fashion/b_01_01.jpg'),
+('4','products/sample/dummy/fashion/b_02_01.jpg')
 ;
