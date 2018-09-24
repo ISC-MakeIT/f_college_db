@@ -1,4 +1,4 @@
-INSERT INTO 
+INSERT INTO
 `product_menbers`
 (`product_id`,`student_id`)
 VALUES

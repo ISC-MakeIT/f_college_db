@@ -1,4 +1,4 @@
-INSERT INTO IF NOT EXISTS
+INSERT INTO
 `students` 
 (`name`,`grade`,`major`,`message`,`profile_photo_url`) 
 VALUES 

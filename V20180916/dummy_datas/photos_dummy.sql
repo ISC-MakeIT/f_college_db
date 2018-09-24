@@ -1,4 +1,4 @@
-INSERT INTO IF NOT EXISTS
+INSERT INTO
 `photos`
 (`product_id`,`photo_url`)
 VALUES

@@ -1,4 +1,4 @@
-CREATE TABLE `product_menbers` (
+CREATE TABLE IF NOT EXISTS `product_menbers` (
     `product_id` SMALLINT NOT NULL COMMENT '作品番号',
     `student_id` SMALLINT NOT NULL COMMENT '学生ID',
     CONSTRAINT `product_menbers_to_product_id` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON UPDATE CASCADE ON DELETE CASCADE,

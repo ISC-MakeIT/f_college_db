@@ -1,4 +1,4 @@
-CREATE TABLE `products` (
+CREATE TABLE IF NOT EXISTS `products` (
     `id` SMALLINT NOT NULL AUTO_INCREMENT COMMENT '作品番号',
     `title` VARCHAR(50) NOT NULL DEFAULT "" COMMENT '作品名',
     `concept` VARCHAR(250) NOT NULL DEFAULT "" COMMENT '作品コンセプト',
