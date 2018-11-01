@@ -1,0 +1,26 @@
+{
+  "name": "f_college_db",
+  "version": "1.0.0",
+  "description": "\"# f_college_db\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISC-MakeIT/f_college_db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ISC-MakeIT/f_college_db/issues"
+  },
+  "homepage": "https://github.com/ISC-MakeIT/f_college_db#readme",
+  "dependencies": {
+    "csv": "^4.0.0",
+    "csv-parse": "^3.1.3",
+    "fs": "0.0.1-security",
+    "readline": "^1.3.0"
+  }
+}
