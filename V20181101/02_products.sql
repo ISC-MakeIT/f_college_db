@@ -6,6 +6,8 @@ CREATE TABLE IF NOT EXISTS `products` (
     `genre` VARCHAR(30) COMMENT '出場種目',
     `theme` VARCHAR(100) COMMENT '作品名',
     `concept` VARCHAR(250) COMMENT '作品コンセプト',
+    `leader_id` SMALLINT NOT NULL COMMENT 'リーダーID',
     KEY `index_to_product_id` (`id`),
-    PRIMARY KEY (`product_id`)
+    PRIMARY KEY (`product_id`),
+    CONSTRAINT `photos_to_leader_id` FOREIGN KEY (`leader_id`) REFERENCES `students` (`student_id`)
 )DEFAULT CHARSET=utf8mb4 COMMENT='作品一覧';
